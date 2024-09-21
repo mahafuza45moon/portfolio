@@ -151,8 +151,8 @@ strong {
 }
 
 .avatar-image-large {
-  width: 90.4px;
-  height: 90.4px;
+  width: 200px;
+  height: 200px;
 }
 
 
@@ -496,8 +496,8 @@ strong {
 .hero-image-wrap {
   background: var(--white-color);
   border-radius: 100%;
-  width: 350px;
-  height: 350px;
+  width: 300px !important;
+  height: 300px !important;
   position: absolute;
   z-index: 22;
   top: -50px;
@@ -505,6 +505,7 @@ strong {
   left: 0;
   margin: auto;
   pointer-events: none;
+  background: rebeccapurple;
 }
 
 .hero-image {
@@ -1180,4 +1181,16 @@ strong {
     border-radius: var(--border-radius-large);
     display: inline-block;
     padding: 8px 24px;
+}
+
+.heading-name{
+  font-size: 36px;
+}
+
+
+.card-body > div {
+  height: 87px;
+  background: antiquewhite;
+/*background: var(--secondary-color);*/
+/*border-radius: 10px;*/
 }
